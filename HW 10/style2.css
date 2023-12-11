@@ -1,0 +1,146 @@
+@media screen and (min-width: 480px) and (max-width: 1920px) {}
+
+.page {
+    background-image: url(./IMAGE/fon-finish.jpg);
+    background-size: cover;
+}
+
+.nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    color: #113680;
+    background-image: linear-gradient(to right, #feffff, #a0d8ef);
+    /* Параметры градиента */
+    background-repeat: no-repeat;
+    /* Фон не повторяется */
+    background-size: 100% 100%;
+    /* Градиент пока не показываем */
+    border: 1px solid #b7b7b7;
+    /* Параметры рамки */
+    border-radius: 4px;
+    /* Радиус скругления углов */
+    text-decoration: none;
+    /* Убираем подчёркивание */
+    padding: 5px 15px;
+    /* Расстояние от */
+    transition: 0.3s;
+    /* Время перехода */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.headline {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #113680;
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+    list-style-position: inside;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.pick {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #113680;
+    font-size: 22px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+    list-style-position: inside;
+}
+
+.img {
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.scale {
+    transition: 1s;
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.text {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #113680;
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: left;
+    font-style: italic;
+    list-style-position: inside;
+}
+
+.contacts {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #113680;
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: left;
+    font-style: italic;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+.mail-hover:hover {
+    text-decoration: none;
+    transition: 0.6s linear;
+    color: red;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    border-bottom: 13px;
+    width: 300px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+.container-button2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 13px;
+    width: 300px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+.container-button3 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 13px;
+    width: 300px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+#like_button_container {
+    width: 900px;
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+}

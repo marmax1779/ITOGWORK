@@ -1,0 +1,172 @@
+@media screen and (min-width: 480px) and (max-width: 1920px) {}
+
+.page {
+    background-image: url(./IMAGE/fon-finish.jpg);
+    background-size: cover;
+}
+
+.nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    color: #113680;
+    background-image: linear-gradient(to right, #feffff, #a0d8ef);
+    /* Параметры градиента */
+    background-repeat: no-repeat;
+    /* Фон не повторяется */
+    background-size: 100% 100%;
+    /* Градиент пока не показываем */
+    border: 1px solid #b7b7b7;
+    /* Параметры рамки */
+    border-radius: 4px;
+    /* Радиус скругления углов */
+    text-decoration: none;
+    /* Убираем подчёркивание */
+    padding: 5px 15px;
+    /* Расстояние от */
+    transition: 0.3s;
+    /* Время перехода */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.headline {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #113680;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+    list-style-position: inside;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: absolute;*/
+
+}
+
+.container-title__button {
+    height: 70px;
+    width: 250px;
+    border: 2px;
+    border-radius: 4px;
+    background-color: rgb(83, 83, 237);
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #0c162b;
+    font-size: 18px;
+}
+
+.click-style {
+    height: 60px;
+    width: 230px;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.popup-reg {
+    display: none;
+    width: 500px;
+    height: 450px;
+    background-color: rgb(142, 151, 172);
+    top: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 3s;
+}
+
+.show {
+    position: relative;
+    display: block;
+}
+
+.input-form {
+    border-radius: 10px;
+    height: 30px;
+    border-width: 1px;
+}
+
+.container-info {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-filed {
+    width: 90px;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #0c162b;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #0c162b;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.button-push {
+    height: 70px;
+    width: 250px;
+    border: 2px;
+    border-radius: 4px;
+    background-color: rgb(83, 83, 237);
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 60px;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #0c162b;
+    font-size: 18px;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+#like_button_container {
+    /*margin-left:auto;*/
+    /*width: 200px;*/
+    color: rgb(92, 27, 157);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contacts {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #113680;
+    font-size: 18px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: left;
+    font-style: italic;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+.mail-hover:hover {
+    text-decoration: none;
+    transition: 0.6s linear;
+    color: red;
+}

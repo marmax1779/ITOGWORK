@@ -1,0 +1,87 @@
+@media screen and (min-width: 480px) and (max-width: 1920px) {}
+
+.page {
+    background-image: url(./IMAGE/fon-finish.jpg);
+    background-size: cover;
+}
+
+.nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    color: #113680;
+    background-image: linear-gradient(to right, #feffff, #a0d8ef);
+    /* Параметры градиента */
+    background-repeat: no-repeat;
+    /* Фон не повторяется */
+    background-size: 100% 100%;
+    /* Градиент пока не показываем */
+    border: 1px solid #b7b7b7;
+    /* Параметры рамки */
+    border-radius: 4px;
+    /* Радиус скругления углов */
+    text-decoration: none;
+    /* Убираем подчёркивание */
+    padding: 5px 15px;
+    /* Расстояние от */
+    transition: 0.3s;
+    /* Время перехода */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container {
+    top: 30px;
+}
+
+.about-me {
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    box-shadow: 10px 5px 5px grey;
+    transition: 1s;
+}
+
+.scale {
+    transition: 1s;
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.text-about-me {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #113680;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: left;
+    font-style: italic;
+    list-style-position: inside;
+}
+
+.contacts {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #113680;
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: left;
+    font-style: italic;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+.mail-hover:hover {
+    text-decoration: none;
+    transition: 0.6s linear;
+    color: red;
+}
